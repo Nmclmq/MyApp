@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerD">
+            <connections>
+                <outlet property="contextLabel" destination="Haq-1N-bbT" id="lzL-JS-9iF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1373018179554.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="koN-Zb-zLG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Haq-1N-bbT">
+                    <rect key="frame" x="10" y="150" width="355" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="EIK-mk-TBH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Haq-1N-bbT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="4N3-eF-C6T"/>
+                <constraint firstAttribute="trailing" secondItem="koN-Zb-zLG" secondAttribute="trailing" id="ERL-WI-FPa"/>
+                <constraint firstAttribute="trailing" secondItem="Haq-1N-bbT" secondAttribute="trailing" constant="10" id="Rw6-PG-lVu"/>
+                <constraint firstItem="koN-Zb-zLG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="f88-9p-0YO"/>
+                <constraint firstItem="Haq-1N-bbT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="oiY-Me-9tA"/>
+                <constraint firstItem="koN-Zb-zLG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qy3-mS-BqS"/>
+                <constraint firstAttribute="bottom" secondItem="koN-Zb-zLG" secondAttribute="bottom" id="tcN-cN-dvA"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="218.5" y="315.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1373018179554.jpg" width="320" height="510"/>
+    </resources>
+</document>

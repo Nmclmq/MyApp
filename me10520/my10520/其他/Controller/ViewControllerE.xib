@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerE">
+            <connections>
+                <outlet property="contextLabel" destination="I56-Zs-Wrg" id="Gs2-vv-4Ih"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1_640x960.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hYQ-SZ-9bs">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I56-Zs-Wrg">
+                    <rect key="frame" x="10" y="150" width="355" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="0Ov-d9-yi9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hYQ-SZ-9bs" secondAttribute="bottom" id="0Lt-Uf-NzZ"/>
+                <constraint firstItem="hYQ-SZ-9bs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Pbk-iI-W7s"/>
+                <constraint firstAttribute="trailing" secondItem="hYQ-SZ-9bs" secondAttribute="trailing" id="feG-2H-FJW"/>
+                <constraint firstItem="hYQ-SZ-9bs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mIz-rm-wgq"/>
+                <constraint firstAttribute="trailing" secondItem="I56-Zs-Wrg" secondAttribute="trailing" constant="10" id="tsH-Ch-kR5"/>
+                <constraint firstItem="I56-Zs-Wrg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="150" id="y7C-n6-QOI"/>
+                <constraint firstItem="I56-Zs-Wrg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="yEe-Ck-ShI"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="1_640x960.jpg" width="640" height="960"/>
+    </resources>
+</document>
